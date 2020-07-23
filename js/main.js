@@ -1,6 +1,6 @@
-$('.header-right i').click(function(){
-  $('.hamburger-menu').fadeIn('slow');
+$('.header-right > a').click(function(){
+  $('.hamburger-menu').show('slow');
 });
 $('.close').click(function(){
-  $('.hamburger-menu').fadeOut('slow');
+  $('.hamburger-menu').hide('slow');
 });
